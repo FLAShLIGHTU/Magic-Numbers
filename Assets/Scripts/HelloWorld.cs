@@ -13,6 +13,8 @@ public class HelloWorld : MonoBehaviour
  private void Start()
  {
   Debug.Log($"Загадай число от {min} до {max}");
+  
+  
  }
 
  private void Update()
