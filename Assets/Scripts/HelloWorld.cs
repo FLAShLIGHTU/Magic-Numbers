@@ -14,7 +14,7 @@ public class HelloWorld : MonoBehaviour
  {
   Debug.Log($"Загадай число от {min} до {max}");
   
-   
+    
  }
 
  private void Update()
