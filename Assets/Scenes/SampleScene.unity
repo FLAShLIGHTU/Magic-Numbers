@@ -238,8 +238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c76e5bfc9b35c5428141c94810b6682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min: 100
-  max: 5000
+  _min: 100
+  _max: 200
 --- !u!65 &995905549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -345,8 +345,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c76e5bfc9b35c5428141c94810b6682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min: 0
-  max: 0
+  _min: 0
+  _max: 0
 --- !u!4 &1441212618
 Transform:
   m_ObjectHideFlags: 0
