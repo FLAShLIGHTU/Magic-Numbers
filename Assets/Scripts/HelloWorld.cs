@@ -18,7 +18,7 @@ public class HelloWorld : MonoBehaviour
  private void Update()
  {
   if (Input.GetKeyDown(KeyCode.DownArrow))
-  {
+  { 
    max = guess;
    this.CalculateGuess();
   }
