@@ -12,6 +12,7 @@ public class HelloWorld : MonoBehaviour
  [SerializeField] private int _max;
  private int _minRange;
  private int _maxRange;
+ private int _restartGuess;
  private int _guess;
  private int _counterSteps;
 
@@ -19,7 +20,7 @@ public class HelloWorld : MonoBehaviour
  private void Start()
  {
   Debug.Log($"Загадай число от {_min} до {_max} и нажми кнопку Вверх");
-  _counterSteps = 0;
+ //_counterSteps = 0;
 
  }
 
@@ -34,7 +35,7 @@ public class HelloWorld : MonoBehaviour
 
   if (Input.GetKeyDown(KeyCode.UpArrow))
   {
-   _min = _guess;
+   _min = _restartGuess;
    CalculateGuess();
 
 
@@ -55,7 +56,7 @@ public class HelloWorld : MonoBehaviour
   
   _minRange = _min;
   _maxRange = _max;
-  _guess = 0;
+  _guess = _restartGuess;
   _counterSteps = 0;
   
   
