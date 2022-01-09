@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/StartScene.unity
+    guid: 0f4f6b74bb0b06446947b21d6606b4d2
+  - enabled: 1
+    path: Assets/Scenes/GuessNumber.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/GuessNumberGame.unity
+    guid: 89f1d1a43364ca1408bfa4f099934159
+  - enabled: 1
+    path: Assets/Scenes/StepsNumber.unity
+    guid: e8ffec228127a4541a0f0e418873bfe4
   m_configObjects: {}

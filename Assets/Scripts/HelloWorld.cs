@@ -15,6 +15,7 @@ public class HelloWorld : MonoBehaviour
  private int _restartGuess;
  private int _guess;
  private int _counterSteps;
+ 
 
 
  private void Start()
