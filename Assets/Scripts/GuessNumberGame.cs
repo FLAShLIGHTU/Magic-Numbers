@@ -1,4 +1,6 @@
+using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Button = UnityEngine.UI.Button;
@@ -77,13 +79,24 @@ public class GuessNumberGame : MonoBehaviour
     public void onClickWin()
     {
       _gameOver = true;
-      _gameText.text = ("You are genius! Wanna play again?");
+      _gameText.text = ("You are genius! Wanna play again? ");
       
+    }
+
+    public void MenuBooton()
+    {
+      SceneManager.LoadScene("StartScene");
+    }
+    
+    public void LoadGuessNumber()
+    {
+      SceneManager.LoadScene("GuessNumber");
     }
 
     public void onClickQuit()
     {
       Application.Quit();
+      Debug.Log("Quit");
     }
     
 }
