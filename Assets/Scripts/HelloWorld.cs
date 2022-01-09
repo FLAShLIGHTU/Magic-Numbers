@@ -71,6 +71,7 @@ public class HelloWorld : MonoBehaviour
   _guess = (_min + _max) / 2;
   Debug.Log($"Твое число {_guess} ? Нажми пробел, если я угадал, или играем дальше!");
   _counterSteps += 1;
+  
 
  }
 }

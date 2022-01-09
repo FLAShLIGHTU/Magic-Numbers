@@ -22,4 +22,10 @@ public class SceneController : MonoBehaviour
   {
     SceneManager.LoadScene(("GuessNumberGame"));
   }
+
+  public void AppQuit()
+  {
+    Application.Quit();
+  }
+  
 }

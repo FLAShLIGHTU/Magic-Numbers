@@ -208,7 +208,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 584982112}
         m_TargetAssemblyTypeName: GuessNumberGame, Assembly-CSharp
-        m_MethodName: Less
+        m_MethodName: onClickMin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -462,8 +462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1c565beaa430414e85468931faaedd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameText: {fileID: 0}
-  _anotherText: {fileID: 0}
+  _gameText: {fileID: 301694613}
+  _anotherText: {fileID: 900512379}
 --- !u!4 &584982113
 Transform:
   m_ObjectHideFlags: 0
@@ -563,7 +563,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 584982112}
         m_TargetAssemblyTypeName: GuessNumberGame, Assembly-CSharp
-        m_MethodName: Win
+        m_MethodName: onClickWin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1104,7 +1104,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 584982112}
         m_TargetAssemblyTypeName: GuessNumberGame, Assembly-CSharp
-        m_MethodName: More
+        m_MethodName: onClickMax
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
