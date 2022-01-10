@@ -29,5 +29,11 @@ public class SceneController : MonoBehaviour
     Application.Quit();
     Debug.Log("Quit");
   }
+
+  public void WinScene()
+  {
+
+    SceneManager.LoadScene(("WinScene"));
+  }
   
 }

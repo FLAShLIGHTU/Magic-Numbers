@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StepsNumber.unity
     guid: e8ffec228127a4541a0f0e418873bfe4
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: d1ae9164c9f6c451db42c81b1396e5d9
   m_configObjects: {}

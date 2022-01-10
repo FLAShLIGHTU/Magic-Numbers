@@ -42,7 +42,9 @@ public class GuessNumberGame : MonoBehaviour
       if (guess == _guess)
       {
         _gameOver = true;
-        _gameText.text = (@$"Cheating! your number is {_guess} ");
+        _gameText.text = (@$"LMAO, you forget your number? :) ");
+        Invoke(nameof(LoadRestart), 2f);
+        
 
       }
       else
@@ -54,8 +56,11 @@ public class GuessNumberGame : MonoBehaviour
       
 
     }
-    
-    
+
+    public void LoadRestart()
+    {
+      SceneManager.LoadScene("GuessNumber");
+    }
     public void onClickMin()
     {
       if (_gameOver == false)
@@ -75,13 +80,6 @@ public class GuessNumberGame : MonoBehaviour
       }
      
     }
-    
-    public void onClickWin()
-    {
-      _gameOver = true;
-      _gameText.text = ("You are genius! Wanna play again? ");
-      
-    }
 
     public void MenuBooton()
     {
@@ -97,6 +95,12 @@ public class GuessNumberGame : MonoBehaviour
     {
       Application.Quit();
       Debug.Log("Quit");
+    }
+    
+    public void WinScene()
+    {
+
+      SceneManager.LoadScene(("WinScene"));
     }
     
 }
