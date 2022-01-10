@@ -12,26 +12,24 @@ public class NumberMinMax : MonoBehaviour
 
     public static int MinNum;
     public static int MaxNum;
-    
-  
+
+
     void Start()
     {
-
-        
     }
-    void Update(){
 
-    if (FromNum.text != String.Empty && ToNum.text != String.Empty)
+    void Update()
     {
-        MinNum = Convert.ToInt32(FromNum.text);
-        MaxNum = Convert.ToInt32(ToNum.text);
-    }
+        if (FromNum.text != String.Empty && ToNum.text != String.Empty)
+        {
+            MinNum = Convert.ToInt32(FromNum.text);
+            MaxNum = Convert.ToInt32(ToNum.text);
+        }
 
-    else
-    {
-        MinNum = 0;
-        MaxNum = 1000;
-    }
-
+        else
+        {
+            MinNum = 0;
+            MaxNum = 1000;
+        }
     }
 }

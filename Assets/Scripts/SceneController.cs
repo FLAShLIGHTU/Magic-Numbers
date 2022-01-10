@@ -3,37 +3,34 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-  public void LoadGuessNumber()
-  {
-    SceneManager.LoadScene("GuessNumber");
-  }
+    public void LoadGuessNumber()
+    {
+        SceneManager.LoadScene("GuessNumber");
+    }
 
-  public void LoadStepsNumber()
-  {
-    SceneManager.LoadScene("StepsNumber");
-  }
-  
-  public void LoadStartScene()
-  {
-    SceneManager.LoadScene("StartScene");
-  }
+    public void LoadStepsNumber()
+    {
+        SceneManager.LoadScene("StepsNumber");
+    }
 
-  public void LoadGuessNumberGame()
-  {
-    SceneManager.LoadScene(("GuessNumberGame"));
-  }
+    public void LoadStartScene()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
 
-  public void AppQuit()
-  {
-    
-    Application.Quit();
-    Debug.Log("Quit");
-  }
+    public void LoadGuessNumberGame()
+    {
+        SceneManager.LoadScene(("GuessNumberGame"));
+    }
 
-  public void WinScene()
-  {
+    public void AppQuit()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
+    }
 
-    SceneManager.LoadScene(("WinScene"));
-  }
-  
+    public void WinScene()
+    {
+        SceneManager.LoadScene(("WinScene"));
+    }
 }

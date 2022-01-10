@@ -527,7 +527,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sorry, this game are no available. Back to menu, and choose Guess Number
+  m_Text: Sorry, this game is not available. Back to menu, and choose Guess Number
     :)
 --- !u!222 &1720557454
 CanvasRenderer:

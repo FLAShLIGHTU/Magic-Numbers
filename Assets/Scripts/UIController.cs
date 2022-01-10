@@ -23,16 +23,12 @@ public class UIController : MonoBehaviour
 
     void Update()
     {
-        
-
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             _number = 1;
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -41,8 +37,6 @@ public class UIController : MonoBehaviour
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
@@ -51,8 +45,6 @@ public class UIController : MonoBehaviour
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha4))
@@ -61,8 +53,6 @@ public class UIController : MonoBehaviour
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha5))
@@ -71,8 +61,6 @@ public class UIController : MonoBehaviour
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha6))
@@ -81,8 +69,6 @@ public class UIController : MonoBehaviour
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha7))
@@ -91,8 +77,6 @@ public class UIController : MonoBehaviour
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha8))
@@ -101,8 +85,6 @@ public class UIController : MonoBehaviour
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha9))
@@ -111,21 +93,18 @@ public class UIController : MonoBehaviour
             _sumNumber = _sumNumber + _number;
             myText.text = ($"Вы ввели {_number}. Ваша сумма {_sumNumber}");
             winCheker();
-
-
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             _sumNumber = 0;
             _counterSteps = 0;
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             enabled = false;
         }
-
     }
 
     private void winCheker()
@@ -134,12 +113,6 @@ public class UIController : MonoBehaviour
         if (_sumNumber >= _lastNumber)
         {
             myText.text = ($"Игра окончена! Колличество ходов:{_counterSteps} Нажмите пробел, что бы начать заново.");
-            
-
-
-
-
         }
     }
 }
-   
